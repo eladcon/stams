@@ -1,0 +1,5 @@
+flag: flag1
+type: experiment
+name: flag 1
+stickinessProperty: rox.distinct_id
+value: true
