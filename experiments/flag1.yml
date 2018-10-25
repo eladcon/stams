@@ -7,5 +7,6 @@ platforms:
   - name: iOS
     value: false
     conditions:
-      - group:
+      - value: true
+        group:
           name: sta
