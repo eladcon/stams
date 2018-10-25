@@ -1,0 +1,11 @@
+flag: flag1
+type: experiment
+name: flag 1
+labels:
+  - label1
+platforms:
+  - name: iOS
+    value: false
+    conditions:
+      - group:
+          name: sta
