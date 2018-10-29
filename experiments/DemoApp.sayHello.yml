@@ -1,0 +1,11 @@
+flag: DemoApp.sayHello
+type: experiment
+name: say hello
+platforms:
+  - name: Browser
+    value: false
+    conditions:
+      - value: true
+        version:
+          operator: semver-eq
+          semver: '0.0'
