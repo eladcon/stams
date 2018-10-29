@@ -1,0 +1,6 @@
+flag: boolFlagForDependency
+type: experiment
+name: bool flag for dependency
+platforms:
+  - name: Java
+    value: true
