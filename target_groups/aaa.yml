@@ -1,0 +1,6 @@
+type: target-group
+name: aaa
+conditions:
+  - operator: lt
+    property: geresh
+    operand: 1
