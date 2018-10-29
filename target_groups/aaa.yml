@@ -3,4 +3,4 @@ name: aaa
 conditions:
   - operator: lt
     property: geresh
-    operand: 1
+    operand: 2
