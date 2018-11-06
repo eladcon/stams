@@ -1,0 +1,12 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5bd6f5b36950b541774f72bc
+flag: flag1
+type: experiment
+name: flag 1
+labels:
+  - '111'
+  - '222'
+  - '333'
+  - '777'
+  - '11000'
+value: false
