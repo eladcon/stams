@@ -9,7 +9,4 @@ labels:
   - '333'
   - '777'
   - '11000'
-platforms:
-  - name: tvOS
-    value: false
 value: false
