@@ -4,5 +4,5 @@ flag: flag1
 type: experiment
 name: flag 1
 enabled: false
-description: '123'
+description: '12'
 value: false
