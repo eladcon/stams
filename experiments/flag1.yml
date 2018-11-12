@@ -3,4 +3,7 @@
 flag: flag1
 type: experiment
 name: flag 1
+platforms:
+  - name: tvOS
+    value: false
 value: false
