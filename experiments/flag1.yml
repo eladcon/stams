@@ -4,7 +4,4 @@ flag: flag1
 type: experiment
 name: flag 1
 description: '123'
-platforms:
-  - name: tvOS
-    value: false
 value: false
