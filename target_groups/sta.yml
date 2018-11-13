@@ -3,4 +3,4 @@ name: sta
 conditions:
   - operator: is-undefined
     property: rox.platform
-description: '12345'
+description: '1234'
