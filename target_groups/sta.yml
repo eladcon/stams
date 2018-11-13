@@ -1,0 +1,6 @@
+type: target-group
+name: sta
+conditions:
+  - operator: is-undefined
+    property: rox.platform
+description: '123'
