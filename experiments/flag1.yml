@@ -4,4 +4,7 @@ flag: flag1
 type: experiment
 name: flag 1
 description: '123'
+conditions:
+  - group:
+      name: sta1
 value: false
