@@ -8,3 +8,4 @@ conditions:
     property: rox.language
     operand:
       - '222'
+description: '123'
