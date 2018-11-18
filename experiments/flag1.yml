@@ -7,5 +7,5 @@ description: '123'
 conditions:
   - value: true
     group:
-      name: sta26
+      name: sta27
 value: false
