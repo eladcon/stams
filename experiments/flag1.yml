@@ -5,7 +5,8 @@ type: experiment
 name: flag 1
 description: '123'
 conditions:
-  - {}
+  - group:
+      name: sta12
   - value: true
     group:
       name: sta28
