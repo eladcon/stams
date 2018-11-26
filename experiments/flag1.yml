@@ -6,7 +6,8 @@ name: flag 1
 description: '123'
 conditions:
   - group:
-      name: sta12
+      name: ttt
+      operator: and
   - value: true
     group:
       name: sta28
