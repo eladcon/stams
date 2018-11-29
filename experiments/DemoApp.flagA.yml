@@ -1,0 +1,9 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5b59c69d8583023171d74efb
+flag: DemoApp.flagA
+type: experiment
+name: flag a
+labels: aaa
+platforms:
+  - name: NodeJS
+    value: false
