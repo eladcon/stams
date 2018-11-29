@@ -1,0 +1,11 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5b59dbed8583023171d75338
+flag: aFlagFromJava
+type: experiment
+name: a flag from java
+labels:
+  - xxx
+  - xxx55
+platforms:
+  - name: Java
+    value: true
