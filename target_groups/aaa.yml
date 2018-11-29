@@ -1,0 +1,7 @@
+type: target-group
+name: aaa
+conditions:
+  - operator: regex
+    property: rox.platform
+    operand: iOS
+description: '113'
