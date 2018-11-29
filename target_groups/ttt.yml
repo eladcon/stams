@@ -1,7 +1,0 @@
-type: target-group
-name: ttt
-conditions:
-  - operator: lt
-    property: rox.screen_height
-    operand: 1
-description: '33'
