@@ -1,0 +1,24 @@
+# This file was edited by rollout.io
+# URL: https://localhost.rollout.io:9000/ex/5b4b59277a17491d469cea21
+flag: flag1
+type: experiment
+name: flag 1
+description: lhjkhjk
+labels:
+  - aaa2 In Development
+  - xxx4 In Development
+  - aaa1
+platforms:
+  - name: Java
+    value:
+      - option: true
+        percentage: 50
+    conditions:
+      - value: true
+        group:
+          name: aaa
+  - name: iOS
+    value: false
+    conditions:
+      - group:
+          name: aaa
