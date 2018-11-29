@@ -1,6 +1,0 @@
-type: target-group
-name: bbbx
-conditions:
-  - operator: regex
-    property: contextBasedEmail
-    operand: '123'
