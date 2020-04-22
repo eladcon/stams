@@ -1,0 +1,6 @@
+type: target-group
+name: aaa
+conditions:
+  - operator: regex
+    property: blounfc
+    operand: '123'

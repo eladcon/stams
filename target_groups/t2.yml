@@ -1,0 +1,11 @@
+type: target-group
+name: t2
+description: '1234'
+conditions:
+  - operator: in-array
+    property: rox.platform
+    operand:
+      - '123'
+      - '555'
+      - x1
+      - x2
