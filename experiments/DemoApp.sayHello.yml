@@ -1,9 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://localhost.rollout.io:9000/ex/5b59c6f48583023171d74f42
-flag: DemoApp.sayHello
-type: experiment
-name: say hello
-labels: aaa1
-platforms:
-  - name: NodeJS
-    value: false

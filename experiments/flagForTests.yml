@@ -1,6 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://localhost.rollout.io:9000/ex/5bec0469e3583e34af74c06c
-flag: flagForTests
-type: experiment
-name: flag for tests
-value: false

@@ -1,9 +1,0 @@
-# This file was edited by rollout.io
-# URL: https://localhost.rollout.io:9000/ex/5b59cb8f8583023171d75118
-flag: test.FirstFlag
-type: experiment
-name: first flag
-labels: aa5
-platforms:
-  - name: .NET
-    value: true
