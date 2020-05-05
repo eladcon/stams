@@ -2,6 +2,6 @@
 # URL: https://localhost.rollout.io:9000/ex/5e9479692b067031fbf9c42d
 type: experiment
 name: flag 1
-description: acacac
+description: acacacd
 flag: flag1
 value: true
