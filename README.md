@@ -3,6 +3,8 @@
 [![Integration status](https://localhost.rollout.io:9000/badges/5ea04a545044a67975075734)](https://localhost.rollout.io:9000/app/5bbb59442f66216adc583de3/settings/info)
 
 
+
+
 This repository is a YAML represnetation for Rollout configuration, it is connected (see badge for status) to Rollout service via [Rollout's github app](https://github.com/apps/rollout-io)
 Configuration as code allows the entire configuration of Rollout's state to be stored as source code. It integrates Rollout's UI with engineering existing environment. This approach brings a lot of benefits.
 
