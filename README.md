@@ -8,7 +8,6 @@ Configuration as code allows the entire configuration of Rollout's state to be s
 # What is Rollout
 Rollout is a multi-platform, infrastructure as code, software as a service feature management and remote configuration solution.
 
-
 # What Are Feature Flags
 
 Feature Flags is a powerfull technique based on remotetly and conditionaly opening/closing features threw the entire feature developement and delivery process.  As Martin Fowler writes on [Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html)
