@@ -12,7 +12,7 @@ on:
 jobs:
   greeter:
     steps:
-      - using: cloudbees/shell-widget
+      - using: eladcon/shell-widget
         # the using ref can be:
         # a full ref to a git repo, for now we always assume it's on github.com and reserve github.com/ as a prefix
         # after the ref we include a : and or an @
