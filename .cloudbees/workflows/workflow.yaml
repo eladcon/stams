@@ -5,7 +5,7 @@ on:
       - stable-*
     tags:
       - v*
-  pull_requests:
+  pull_request:
     branches:
       - main
       - stable-*
