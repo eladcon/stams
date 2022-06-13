@@ -1,4 +1,3 @@
-Rollout.io
 ![CloudBees Rollout](https://1ko9923xosh2dsbjsxpwqp45-wpengine.netdna-ssl.com/wp-content/themes/rollout/images/rollout_white_logo1.png)
 
 [![Integration status](https://localhost.rollout.io:9000/badges/5ea04a545044a67975075734)](https://localhost.rollout.io:9000/app/5bbb59442f66216adc583de3/settings/info)
@@ -315,11 +314,6 @@ conditions:
 
 
 Please contact support@rollout.io for any issues questions or suggestions you might have
-
-
-
-
-
 
 
 
