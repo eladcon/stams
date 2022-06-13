@@ -3,7 +3,7 @@ name: GitHub Actions Demo
 on:
   pull_request:
     branches:    
-      - 'main'
+      - 'master'
       - 'releases/**'
 jobs:
   Explore-GitHub-Actions:
