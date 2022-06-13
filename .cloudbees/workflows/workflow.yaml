@@ -12,4 +12,4 @@ jobs:
     steps:
       - using: eladcon/shell-widget
         with:
-          cmd: echo The demo gods here is your donation
+          cmd: echo The demo gods there is your donation
