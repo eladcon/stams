@@ -6,6 +6,6 @@
 jobs:
   greeter:
     steps:
-      - using: eladcon/shell-widget
+      - uses: eladcon/shell-widget
         with:
           cmd: echo The demo gods there is your donation
