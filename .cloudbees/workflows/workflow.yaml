@@ -8,4 +8,5 @@ jobs:
     steps:
       - uses: eladcon/shell-widget
         with:
-          cmd: echo The demo gods there is your ${{ secrets.secret1 }}
+          cmd: echo The demo gods there is your $(cat ${{ secrets.secret1 }})
+          
