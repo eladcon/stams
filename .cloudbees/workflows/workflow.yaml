@@ -9,4 +9,4 @@ jobs:
       - uses: eladcon/shell-widget
         with:
           cmd: echo The demo gods there is your
-          cmd2: echo there is another without a secret
+          cmd2: echo there is another without a secret 
