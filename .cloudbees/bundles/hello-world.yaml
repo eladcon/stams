@@ -1,0 +1,16 @@
+bundleApi: "0.1"
+name: hello-world
+workflows:
+  hello-world-flow:
+    #source: fake-org/hello-world-workflow
+    "on":
+      push:
+        branches:
+          - main
+          - stable-*
+        tags:
+          - v*
+      pull_request:
+        branches:
+          - main
+          - stable-*
