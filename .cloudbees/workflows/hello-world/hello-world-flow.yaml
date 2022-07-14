@@ -22,5 +22,5 @@ jobs:
 
         with:
           cmd: echo hello world ${{ secrets.secret1 }}...
-          cmd2: echo no secrete...
+          cmd2: echo no secrete..
 
