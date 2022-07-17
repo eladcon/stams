@@ -2,7 +2,7 @@ bundleApi: "0.1"
 name: hello-world
 workflows:
   hello-world-flow:
-    #source: fake-org/hello-world-workflow
+    source: eladcon/bundle-sync-workflow/bundles/hello-world-wf.yaml
     "on":
       push:
         branches:
