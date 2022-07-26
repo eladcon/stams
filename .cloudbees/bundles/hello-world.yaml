@@ -6,11 +6,11 @@ workflows:
     "on":
       push:
         branches:
-          - main
+          - *
           - stable-*
         tags:
           - v*
       pull_request:
         branches:
-          - main
+          - master
           - stable-*
