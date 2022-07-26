@@ -6,7 +6,7 @@ workflows:
     "on":
       push:
         branches:
-          - *
+          - master
           - stable-*
         tags:
           - v*
