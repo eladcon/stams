@@ -21,7 +21,7 @@ jobs:
         #   github.com/cloudbees/shell-widget:v1                           (being more specific about where the repo is)
 
         with:
-          cmd: echo hello world ${{ secrets.secret1 }}... && echo ${GIT_ACCESS_TOKEN} && echo owner is ${{ project.version }}
+          cmd: echo hello world ${{ secrets.secret1 }}... && echo ${GIT_ACCESS_TOKEN} && echo owner is ${{ project.owner }}
           cmd2: sleep 10 && echo no secrete..
 
 
