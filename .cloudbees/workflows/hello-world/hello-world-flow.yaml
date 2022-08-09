@@ -1,10 +1,10 @@
 workflowApi: "0.1"
 
 "on":
-  bundle_dispatch22: {}
+  bundle_dispatch: {}
 
 jobs:
-  greeter:
+  123:
     steps:
       - uses: eladcon/shell-widget
         # the using ref can be:
