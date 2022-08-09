@@ -8,13 +8,13 @@ workflowApi: "0.1"
 "on":
   push:
     branches:
-      - main
+      - master
       - stable-*
     tags:
       - v*
   pull_request:
     branches:
-      - main
+      - master
       - stable-*
 
 jobs:
