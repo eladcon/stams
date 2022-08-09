@@ -1,0 +1,26 @@
+workflowApi: "0.1"
+
+# TODO: test this when we have actual event data
+#inputs:
+#  commit:
+#    type: string
+
+"on":
+  push:
+    branches:
+      - main
+      - stable-*
+    tags:
+      - v*
+  pull_request:
+    branches:
+      - main
+      - stable-*
+
+jobs:
+  greeter:
+    steps:
+      - uses: eladcon/shell-widget
+        with:
+          cmd: "echo hello standalone workflow test1, secret: ${{ secrets.secret1 }}..."
+          cmd2: "echo s..."
