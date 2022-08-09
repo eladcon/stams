@@ -1,2 +1,2 @@
 bundleConfigApi: "0.1"
-source12: eladcon/bundle-sync-workflow/bundles/hello-world.yaml
+source: eladcon/bundle-sync-workflow/bundles/hello-world.yaml
