@@ -1,10 +1,10 @@
 name: 12gh
-# on: [push]
-on:
-  pull_request:
-    branches:    
-      - 'master'
-      - 'releases/**'
+on: [push]
+# on:
+#   pull_request:
+#     branches:    
+#       - 'master'
+#       - 'releases/**'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
