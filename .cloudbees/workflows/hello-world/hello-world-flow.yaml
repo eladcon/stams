@@ -6,7 +6,7 @@ workflowApi: "0.1"
 jobs:
   greeter:
     steps:
-      - uses: eladcon/shell-widget
+      - uses123: eladcon/shell-widget
         # the using ref can be:
         # a full ref to a git repo, for now we always assume it's on github.com and reserve github.com/ as a prefix
         # after the ref we include a : and or an @
