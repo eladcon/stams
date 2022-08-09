@@ -1,4 +1,4 @@
-name: GitHub Actions Demo
+name: 12gh
 # on: [push]
 on:
   pull_request:
