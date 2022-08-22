@@ -9,7 +9,7 @@ jobs:
       - uses: eladcon/shell-widget
         with:
           cmd: echo from another flow
-          cmd2: sleep 10 && echo dont run $(data)..
+          cmd2: sleep 10 && echo dont run $(date)..
 
 
 
