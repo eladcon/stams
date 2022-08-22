@@ -22,7 +22,7 @@ jobs:
 
         with:
           cmd: echo hello ${{ project.commit }} world ${{ secrets.secret1 }}... && echo ${GIT_ACCESS_TOKEN} && echo owner is ${{ project.owner }}
-          cmd2: sleep 10 && echo no secrete..
+          cmd2: sleep 10 && echo no secrete $(date)..
 
 
 
