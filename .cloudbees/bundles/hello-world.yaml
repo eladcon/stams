@@ -14,3 +14,9 @@ workflows:
         branches:
           - master
           - stable-*
+  another-flow:
+    source: eladcon/bundle-sync-workflow/bundles/hello-world-wf.yaml
+    "on":
+      push:
+        branches:
+          - dontrun
