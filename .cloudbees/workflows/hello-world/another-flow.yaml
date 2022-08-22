@@ -1,0 +1,38 @@
+workflowApi: "0.1"
+
+"on":
+  bundle_dispatch: {}
+
+jobs:
+  greeter:
+    steps:
+      - uses: eladcon/shell-widget
+        with:
+          cmd: echo from another flow
+          cmd2: sleep 10 && echo dont run $(data)..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
