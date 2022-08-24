@@ -17,6 +17,6 @@ workflows:
   another-flow:
     source: eladcon/bundle-sync-workflow/bundles/hello-world-wf.yaml
     "on":
-      workflow_started:
+      workflow_completed:
         ids:
           - hello-world/hello-world-flow
