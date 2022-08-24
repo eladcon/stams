@@ -23,4 +23,4 @@ jobs:
       - uses: eladcon/shell-widget
         with:
           cmd: "echo hello standalone workflow test1, secret: '${{ secrets.TF_SECRETS_JSON }}'..."
-          cmd2: "echo s... && exit 1"
+          cmd2: "echo s... && exit 0"
