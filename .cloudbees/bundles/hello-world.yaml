@@ -6,20 +6,11 @@ workflows:
     "on":
       push:
         branches:
-          - master
+          - main
           - stable-*
         tags:
           - v*
       pull_request:
         branches:
-          - master
+          - main
           - stable-*
-      workflow_completed:
-        ids:
-          - hello-world/hello-world-flow
-  another-flow:
-    source: eladcon/bundle-sync-workflow/bundles/hello-world-wf.yaml
-    "on":
-      workflow_completed:
-        ids:
-          - hello-world/hello-world-flow
