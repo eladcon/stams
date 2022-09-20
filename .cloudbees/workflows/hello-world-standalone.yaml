@@ -20,7 +20,7 @@ workflowApi: "0.1"
 jobs:
   greeter:
     steps:
-      - uses5: eladcon/shell-widget
+      - uses6: eladcon/shell-widget
         with:
           cmd: "echo hello standalone workflow test1, secret: '${{ secrets.TF_SECRETS_JSON }}'..."
           cmd2: "echo s... && exit 0"
