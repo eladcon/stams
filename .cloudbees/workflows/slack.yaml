@@ -11,23 +11,6 @@ workflowApi: "0.1"
           sourcedb: ${{event.arguments.source}}
           destinationdb: ${{event.arguments.destination}}
 
-config:
-  pghost:
-    type: string
-    description: the postgres host
-  pgport:
-    type: string
-    description: the postgres port
-  pgdatabase:
-    type: string
-    description: the postgres database
-  pguser:
-    type: string
-    description: the postgres user
-  pgpassword:
-    type: string
-    description: the postgres password
-
 inputs:
   sourcedb:
     type: string
