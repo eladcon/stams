@@ -31,10 +31,10 @@ config:
 inputs:
   sourcedb:
     type: string
-     description: the source database to clone from
+    description: the source database to clone from
   destinationdb:
     type: string
-     description: the destination database to clone into
+    description: the destination database to clone into
      
 jobs:
   clone:
