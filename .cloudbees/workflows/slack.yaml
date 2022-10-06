@@ -1,0 +1,45 @@
+workflowApi: "0.1"
+
+"on":
+  slack:
+    commands:
+      clone:
+        arguments:
+        - source
+        - destination
+        with:
+          sourcedb: ${{event.arguments.source}}
+          destinationdb: ${{event.arguments.destination}}
+
+config:
+  pghost:
+    type: string
+    description: the postgres host
+  pgport:
+    type: string
+    description: the postgres port
+  pgdatabase:
+    type: string
+    description: the postgres database
+  pguser:
+    type: string
+    description: the postgres user
+  pgpassword:
+    type: string
+    description: the postgres password
+
+inputs:
+  sourcedb:
+    type: string
+     description: the source database to clone from
+  destinationdb:
+    type: string
+     description: the destination database to clone into
+     
+jobs:
+  clone:
+    steps:
+      - uses: eladcon/shell-widget
+        with:
+          cmd: "echo clone '${{ inputs.sourcedb }}' to '${{ inputs.destinationdb }}'..."
+          cmd2: "echo slack... && exit 0"
